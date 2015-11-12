@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="BookMan.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:BookMan"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <!-- #9b2121 para o texto, #c69c6d para os quadrados -->
+    <Grid Background="#f8e8bf">
+        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="195,99,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="32"/>
+
+    </Grid>
+</Page>
