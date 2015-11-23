@@ -9,7 +9,10 @@
 
     <!-- #9b2121 para o texto, #c69c6d para os quadrados -->
     <Grid Background="#f8e8bf">
-        <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Margin="195,99,0,0" TextWrapping="Wrap" Text="TextBlock" VerticalAlignment="Top" FontSize="32"/>
-
+        <TextBlock x:Name="title" Text="BookMan" Foreground="#9b2121" FontSize="48" Margin="75,117,0,0" />
+        
+        <Button x:Name="entry1" Content="Registar requisição" HorizontalAlignment="Left" Margin="75,315,0,0" VerticalAlignment="Top" Background="#FFE0A25D" Height="200" Width="200" Foreground="#9b2121" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" BorderBrush="{x:Null}" Click="entry1_Click"/>
+        <Button x:Name="entry2" Content="Registar entrega" HorizontalAlignment="Left" Margin="315,315,0,0" VerticalAlignment="Top" Background="#FFE0A25D" Height="200" Width="200" Foreground="#9b2121" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" BorderBrush="{x:Null}"/>
+        <Button x:Name="entry3" Content="Ver requisições" HorizontalAlignment="Left" Margin="555,315,0,0" VerticalAlignment="Top" Background="#FFE0A25D" Height="200" Width="200" Foreground="#9b2121" HorizontalContentAlignment="Left" VerticalContentAlignment="Top" BorderBrush="{x:Null}" Click="entry3_Click"/>
     </Grid>
 </Page>
